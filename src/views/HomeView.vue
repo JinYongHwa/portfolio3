@@ -1,17 +1,17 @@
 <template>
   <div>
     <swiper :options="swiperOption" class="swiper">
-      <swiper-slide data-aos="fade-in" data-aos-duration="1000" class="slide" style="background-image:url(/image/top1.jpg);">
+      <swiper-slide data-aos="fade-in" data-aos-duration="1000" class="slide" style="background-image:url(image/top1.jpg);">
        <v-layout data-aos="fade-up" data-aos-duration="1000" fill-height align-center justify-center>
         <div class="slog">명지전문대학 진용화</div>
        </v-layout>
       </swiper-slide>
-      <swiper-slide class="slide" style="background-image:url(/image/top2.jpg);">
+      <swiper-slide class="slide" style="background-image:url(image/top2.jpg);">
         <v-layout fill-height align-center justify-center>
         <div class="slog">열심히하겠습니다</div>
        </v-layout>
       </swiper-slide>
-      <swiper-slide class="slide" style="background-image:url(/image/top3.jpg);">
+      <swiper-slide class="slide" style="background-image:url(image/top3.jpg);">
         <v-layout fill-height align-center justify-center>
         <div class="slog">뽑아주세요</div>
        </v-layout>
@@ -24,32 +24,32 @@
        
         <v-flex xs4 class="pa-2" data-aos="fade-right">
           <v-responsive :aspect-ratio="1/1">
-            <img src="/image/top1.jpg" class="image">
+            <img src="image/top1.jpg" class="image">
           </v-responsive>
         </v-flex>
         <v-flex xs4 class="pa-2" data-aos="fade-down" data-aos-delay="100">
           <v-responsive :aspect-ratio="1/1">
-            <img src="/image/top2.jpg" class="image">
+            <img src="image/top2.jpg" class="image">
           </v-responsive>
         </v-flex>
         <v-flex xs4 class="pa-2" data-aos="fade-left" data-aos-delay="200">
           <v-responsive :aspect-ratio="1/1">
-            <img src="/image/top3.jpg" class="image">
+            <img src="image/top3.jpg" class="image">
           </v-responsive>
         </v-flex>
         <v-flex xs4 class="pa-2" data-aos="fade-right">
           <v-responsive :aspect-ratio="1/1">
-            <img src="/image/top2.jpg" class="image">
+            <img src="image/top2.jpg" class="image">
           </v-responsive>
         </v-flex>
         <v-flex xs4 class="pa-2">
           <v-responsive :aspect-ratio="1/1" data-aos="fade-up"  data-aos-delay="100">
-            <img src="/image/top3.jpg" class="image">
+            <img src="image/top3.jpg" class="image">
           </v-responsive>
         </v-flex>
         <v-flex xs4 class="pa-2">
           <v-responsive :aspect-ratio="1/1" data-aos="fade-left" data-aos-delay="200">
-            <img src="/image/top1.jpg" class="image">
+            <img src="image/top1.jpg" class="image">
           </v-responsive>
         </v-flex>
         
